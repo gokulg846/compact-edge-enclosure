@@ -1,0 +1,5 @@
+*.pdf binary
+*.png binary
+exports/** binary
+images/*.svg -whitespace
+drawings/*.svg -whitespace

@@ -1,0 +1,56 @@
+{
+  "criteria": [
+    "Packaging",
+    "Thermal",
+    "Manufacturing",
+    "Service",
+    "Assembly",
+    "Inspection",
+    "Cost / iteration"
+  ],
+  "weights": [
+    0.15,
+    0.2,
+    0.2,
+    0.15,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "scores": [
+    [
+      5,
+      4,
+      3,
+      5,
+      4,
+      4,
+      3
+    ],
+    [
+      4,
+      3,
+      5,
+      3,
+      3,
+      3,
+      5
+    ],
+    [
+      5,
+      2,
+      4,
+      4,
+      4,
+      4,
+      5
+    ]
+  ],
+  "totals": [
+    4.0,
+    3.75,
+    3.85
+  ],
+  "selected": "A",
+  "status": "subjective screening, not experimentally validated"
+}

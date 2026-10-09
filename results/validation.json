@@ -1,0 +1,709 @@
+{
+  "status": "PASS",
+  "parts": {
+    "base": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 37342.75064335868,
+      "bounds_mm": [
+        -4.440892098500626e-16,
+        -4.440892098500626e-16,
+        0.0,
+        100.0,
+        70.0,
+        17.0
+      ],
+      "step_sha256": "9b4a9f49b7582540e470e975032b2bae98df5586412248e29625e78e0d41d4cb",
+      "stl_sha256": "ae1e74c04f84d5c4c5532ea433724def4f4e790cae25557ef43ae77d58a8a157",
+      "step_valid": true,
+      "step_volume_relative_error": 1.0131813790338092e-14,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 37342.652069346834,
+      "stl_volume_relative_error": 2.6397094523103142e-06
+    },
+    "thermal_lid": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 20481.97432725055,
+      "bounds_mm": [
+        -4.440892098500626e-16,
+        -4.440892098500626e-16,
+        10.1,
+        100.0,
+        70.0,
+        25.0
+      ],
+      "step_sha256": "85aba705f7c1b0baae8fb199d22076b9f3404afcbdc44b7333116fa059d25d7a",
+      "stl_sha256": "688b0be93e34204a003f42b6aa1a0257cd709972c34dfcc77d6a2aabc9e74899",
+      "step_valid": true,
+      "step_volume_relative_error": 2.4866598544419193e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 20481.933217842176,
+      "stl_volume_relative_error": 2.007101840809255e-06
+    },
+    "pcb": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 6363.356463288528,
+      "bounds_mm": [
+        10.0,
+        10.0,
+        6.0,
+        90.0,
+        60.0,
+        7.6
+      ],
+      "step_sha256": "583f5974f07d4b186f9f93ea97f2991d3a41a804e04847558d54756b38d37434",
+      "stl_sha256": "69de22d6df1711e6d9faef9dd8aaa2504430e83784958e42956eaf205cd48acf",
+      "step_valid": true,
+      "step_volume_relative_error": 2.8585376507507773e-16,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 6363.371266863414,
+      "stl_volume_relative_error": 2.3263783777598793e-06
+    },
+    "chip": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 800.0,
+      "bounds_mm": [
+        40.0,
+        25.0,
+        7.6,
+        60.0,
+        45.0,
+        9.6
+      ],
+      "step_sha256": "fef2c7fa4ec02022c7866a57b1e6470a868ac45a8160c8a79e5f01a62186745c",
+      "stl_sha256": "554ebca7a939b5920af98edd991ac0f6255bc94d4a4861bd03728f29e4e41fe8",
+      "step_valid": true,
+      "step_volume_relative_error": 0.0,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 800.0001907348633,
+      "stl_volume_relative_error": 2.384185791015625e-07
+    },
+    "thermal_pad": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 199.99999999999997,
+      "bounds_mm": [
+        40.0,
+        25.0,
+        9.6,
+        60.0,
+        45.0,
+        10.1
+      ],
+      "step_sha256": "21ab27516e33edf67d59fdf9fd0ee829ef4f79ade0065aa495fa379a2c19e3ea",
+      "stl_sha256": "13b0c30c4fb638929afac19617c10b8c2678fe6b7b4a47d797943f7195fcb2d8",
+      "step_valid": true,
+      "step_volume_relative_error": 0.0,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 200.0,
+      "stl_volume_relative_error": 1.4210854715202006e-16
+    },
+    "connector": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 957.0,
+      "bounds_mm": [
+        25.75,
+        -2.0,
+        7.75,
+        40.25,
+        10.0,
+        13.25
+      ],
+      "step_sha256": "d9772e6ac3485d9b1f06841e61230492f82894bc4568e7f615b5464f20d14b38",
+      "stl_sha256": "25d086c0fd3969299cb08dcef0a4ca68a0eeafc08fc2a04ab7b7eb158996cda0",
+      "step_valid": true,
+      "step_volume_relative_error": 0.0,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 957.0,
+      "stl_volume_relative_error": 0.0
+    },
+    "component_keepout": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 1080.0,
+      "bounds_mm": [
+        70.0,
+        26.0,
+        7.6,
+        82.0,
+        44.0,
+        12.6
+      ],
+      "step_sha256": "e6f962c59734cb2da9d52af26b66c58d140cca2bbe8a38b043edc92cb5577103",
+      "stl_sha256": "4ca604636a43edbc618c529116193b5c09afc062927ff28ff831317ff46706e6",
+      "step_valid": true,
+      "step_volume_relative_error": 0.0,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 1080.0001029968262,
+      "stl_volume_relative_error": 9.5367431640625e-08
+    },
+    "lid_screw_1": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 83.70773625490004,
+      "bounds_mm": [
+        3.25,
+        3.25,
+        11.0,
+        8.75,
+        8.75,
+        21.0
+      ],
+      "step_sha256": "3741f8dffec2a0aca35d82f334b5ad853867a5a8fc3d8630ece3800698627ad7",
+      "stl_sha256": "60cef9ffe0cc4bb090af6ad4afe439cc0fb93fda6c35606ea4f871f63c61bfd9",
+      "step_valid": true,
+      "step_volume_relative_error": 5.262793092740866e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 83.67304742377632,
+      "stl_volume_relative_error": 0.00041440412410729806
+    },
+    "lid_screw_2": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 83.70773625490003,
+      "bounds_mm": [
+        3.25,
+        61.25,
+        11.0,
+        8.75,
+        66.75,
+        21.0
+      ],
+      "step_sha256": "29eea379d8b4235cf90ee546db85bbcdc37bf493a12d37f45e498881f5d43506",
+      "stl_sha256": "501d47a322f56dbfb2a08e2f5f82ac4d9ab91306a7430da6a2731c67140c649e",
+      "step_valid": true,
+      "step_volume_relative_error": 4.9232580544995204e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 83.67306651278432,
+      "stl_volume_relative_error": 0.00041417608057320754
+    },
+    "lid_screw_3": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 83.70773625490008,
+      "bounds_mm": [
+        91.25,
+        3.25,
+        11.0,
+        96.75,
+        8.75,
+        21.0
+      ],
+      "step_sha256": "a6b1d1923266dfd48212ff2505094f342536508d058757a558a459d065007472",
+      "stl_sha256": "35e3eae1de7b932d943da5a3119cfb133d9aedf161378cbb6ae3f3780b57a45c",
+      "step_valid": true,
+      "step_volume_relative_error": 4.583723016258171e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 83.67304038488146,
+      "stl_volume_relative_error": 0.0004144882130484383
+    },
+    "lid_screw_4": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 83.70773625490006,
+      "bounds_mm": [
+        91.25,
+        61.25,
+        11.0,
+        96.75,
+        66.75,
+        21.0
+      ],
+      "step_sha256": "b976f75c8a356ff7123416c85f246402c60584a78fafccc07d4d108a4069800b",
+      "stl_sha256": "51495392d0ceb42352c556481fa703dd532bd169193f1d3f4280649253aac7dc",
+      "step_valid": true,
+      "step_volume_relative_error": 4.074420458896154e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 83.67305947380373,
+      "stl_volume_relative_error": 0.00041426017053821577
+    },
+    "pcb_screw_1": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 41.21376862428109,
+      "bounds_mm": [
+        15.75,
+        15.75,
+        2.5999999999999996,
+        20.25,
+        20.25,
+        9.299999999999999
+      ],
+      "step_sha256": "5150e5bbadb090877e49aa3dc290c3356d97a59f0e1c17ed33d34f882b828e1d",
+      "stl_sha256": "0b70315c54d6639f2130528bb933bf20499e7eba7160d1d84735d5bb22672cc8",
+      "step_valid": true,
+      "step_volume_relative_error": 1.5516379198754845e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 41.1967006835468,
+      "stl_volume_relative_error": 0.0004141320074338068
+    },
+    "pcb_screw_2": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 41.21376862428107,
+      "bounds_mm": [
+        15.75,
+        49.75,
+        2.5999999999999996,
+        20.25,
+        54.25,
+        9.299999999999999
+      ],
+      "step_sha256": "7ab10124cfb1814a89b2568d42b835cb15f40386dccd87e2d9a950e21faa25c2",
+      "stl_sha256": "e19451ef7a17a5c5c795713bb158a26fe0437221168911898d666e03112edf45",
+      "step_valid": true,
+      "step_volume_relative_error": 1.2068294932364885e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 41.19670065486487,
+      "stl_volume_relative_error": 0.0004141327033642749
+    },
+    "pcb_screw_3": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 41.21376862428113,
+      "bounds_mm": [
+        79.75,
+        15.75,
+        2.5999999999999996,
+        84.25,
+        20.25,
+        9.299999999999999
+      ],
+      "step_sha256": "9ae7616117517635907b2ec948f781cce0a6b255681344719d6d4c2bcab601f3",
+      "stl_sha256": "99c216f0606808447df3f3beb427942f3d844b6c818daa5aae0051307f1f860c",
+      "step_valid": true,
+      "step_volume_relative_error": 1.724042133194981e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 41.196716360180965,
+      "stl_volume_relative_error": 0.00041375163372269245
+    },
+    "pcb_screw_4": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 41.21376862428111,
+      "bounds_mm": [
+        79.75,
+        49.75,
+        2.5999999999999996,
+        84.25,
+        54.25,
+        9.299999999999999
+      ],
+      "step_sha256": "37ab2b64d09716e39592fc3876658676e2fa7be48277ddd2259d16bbdaf5b34d",
+      "stl_sha256": "c60a105213afa6bfc3937ae956d526e330f6423fd994c12b4a9bfea2d8c80517",
+      "step_valid": true,
+      "step_volume_relative_error": 1.2068294932364873e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 41.19671633191306,
+      "stl_volume_relative_error": 0.0004137523196071671
+    },
+    "locator_1": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 183.78317023500287,
+      "bounds_mm": [
+        15.0,
+        9.0,
+        -14.0,
+        21.0,
+        15.0,
+        0.0
+      ],
+      "step_sha256": "739bf23ac5ca4095c31df56d1416457979452a2690a77d7010b33a7d6bb1fc7a",
+      "stl_sha256": "2a78055a94ab466b231231320abc5ff1aee78807458fe63d20a7b834b9691e8a",
+      "step_valid": true,
+      "step_volume_relative_error": 1.701128581766622e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 183.7070077355711,
+      "stl_volume_relative_error": 0.0004144149833436082
+    },
+    "locator_2": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 183.78317023500287,
+      "bounds_mm": [
+        79.0,
+        9.0,
+        -14.0,
+        85.0,
+        15.0,
+        0.0
+      ],
+      "step_sha256": "63bcd71affadf18bd35f1f1bf46a08de139eac3e19570dfde754a48ec02590b3",
+      "stl_sha256": "25c2e1ab8d92f11d30e6bc40d593e9def3b0798854a59257c9ff7dddd0a0a620",
+      "step_valid": true,
+      "step_volume_relative_error": 1.701128581766622e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 183.70702676285873,
+      "stl_volume_relative_error": 0.0004143114521681968
+    },
+    "locator_3": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 183.78317023500284,
+      "bounds_mm": [
+        47.0,
+        55.0,
+        -14.0,
+        53.0,
+        61.0,
+        0.0
+      ],
+      "step_sha256": "3de4e45ba664f3dc25f4bf12864465c33c249e1a79a811b2b2e7eeb1e6128037",
+      "stl_sha256": "1ac48ba37f529849a00d02fcad22bcd7e5b51fcec8ee6688a9c9358cef052196",
+      "step_valid": true,
+      "step_volume_relative_error": 1.3918324759908727e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 183.70700930443127,
+      "stl_volume_relative_error": 0.00041440644686990895
+    },
+    "locator_4": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 325.1548396465436,
+      "bounds_mm": [
+        17.0,
+        -6.0,
+        -14.0,
+        23.0,
+        0.0,
+        5.0
+      ],
+      "step_sha256": "e827ad9aed8478facb3f9aacf11402ed08607c86ce62e1894120a7947c01801e",
+      "stl_sha256": "da3c0edc54b599fe75e4b09b5f38eba2d806f7496af9fe128a463ff2963387ee",
+      "step_valid": true,
+      "step_volume_relative_error": 3.6712102989904165e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 325.0200977901733,
+      "stl_volume_relative_error": 0.00041439289821676895
+    },
+    "locator_5": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 325.15483964654356,
+      "bounds_mm": [
+        77.0,
+        -6.0,
+        -14.0,
+        83.0,
+        0.0,
+        5.0
+      ],
+      "step_sha256": "3695f55970c838a90f702594f7f863338816df00cb06c448b544570b5c14d604",
+      "stl_sha256": "7ec7335fd316c7f77d95c420d754a3e6054a7171ca62f8454d6394186173fd13",
+      "step_valid": true,
+      "step_volume_relative_error": 3.8460298370375795e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 325.0201162993383,
+      "stl_volume_relative_error": 0.00041433597405989025
+    },
+    "locator_6": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 325.1548396465436,
+      "bounds_mm": [
+        -6.0,
+        32.0,
+        -14.0,
+        0.0,
+        38.0,
+        5.0
+      ],
+      "step_sha256": "0a79123d17cc5b3b94f2927884f543d1820f4c1d664d2cee4f7e908fdf8ae767",
+      "stl_sha256": "7b454051b9fcd4890d72cbd9edd13827e842f8554b2e51d50f6ea327417835f7",
+      "step_valid": true,
+      "step_volume_relative_error": 3.6712102989904165e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 325.02011108980923,
+      "stl_volume_relative_error": 0.0004143519957471425
+    },
+    "fixture_plate": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 77440.46684332994,
+      "bounds_mm": [
+        -15.0,
+        -15.0,
+        -10.0,
+        115.0,
+        85.0,
+        -4.0
+      ],
+      "step_sha256": "5b97e9769a9fad8bc90017aacb179b23115b77f4e3309638444e0099dc10e81e",
+      "stl_sha256": "4505dacdee39e328275477f5e62915be4cd9c22d37f6dd090f00f901025abefc",
+      "step_valid": true,
+      "step_volume_relative_error": 9.395549782652317e-16,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 77440.61135789168,
+      "stl_volume_relative_error": 1.8661375329718591e-06
+    },
+    "clamp_y": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 1070.5958278276437,
+      "bounds_mm": [
+        38.0,
+        75.0,
+        -4.0,
+        62.0,
+        81.0,
+        6.0
+      ],
+      "step_sha256": "5ab01e99c806d55d457d5eba4be3968bfd083be90d011f90f34d80286be769ca",
+      "stl_sha256": "f7949b14720ed1f577cb8fa0f3df56a01be11828944d6d78c205627bd0dba791",
+      "step_valid": true,
+      "step_volume_relative_error": 8.495219933916544e-15,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 1070.7490434133385,
+      "stl_volume_relative_error": 0.0001431124442225254
+    },
+    "clamp_x": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 1070.5958278276441,
+      "bounds_mm": [
+        105.0,
+        23.0,
+        -4.0,
+        111.0,
+        47.0,
+        6.0
+      ],
+      "step_sha256": "fc53175ba36bb1e7db0a944bbe75ef2279fc5a6973f448a5c683f09d6b5e69a6",
+      "stl_sha256": "f8b209edd659087092729c430fa572d459e078392bae7f34a40f01bba8321d65",
+      "step_valid": true,
+      "step_volume_relative_error": 1.0831405415743588e-14,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 1070.7487716353062,
+      "stl_volume_relative_error": 0.00014285858742078283
+    },
+    "clamp_pad_y": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 149.99999999999997,
+      "bounds_mm": [
+        45.0,
+        70.0,
+        0.0,
+        55.0,
+        75.0,
+        3.0
+      ],
+      "step_sha256": "8736bd3e638838c6d7250eb28d8a061936519d065df42b846b3bf7640bd99b1d",
+      "stl_sha256": "e7d49b4dee91120ac0a88674895c0c1de73355715de4f9670deed2f6cb86cada",
+      "step_valid": true,
+      "step_volume_relative_error": 0.0,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 150.0,
+      "stl_volume_relative_error": 1.8947806286936009e-16
+    },
+    "clamp_pad_x": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 149.99999999999997,
+      "bounds_mm": [
+        100.0,
+        30.0,
+        0.0,
+        105.0,
+        40.0,
+        3.0
+      ],
+      "step_sha256": "eea22aece57b12b008568281340fdf52b7e3456aada390c98090b9a443430c1b",
+      "stl_sha256": "17cc82a2fbceb9b573a27c3b8421a7834fcd988ca59f2f2aefdbbbb7099fc8f5",
+      "step_valid": true,
+      "step_volume_relative_error": 0.0,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 150.0,
+      "stl_volume_relative_error": 1.8947806286936009e-16
+    },
+    "fan_spacer_1": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 115.1707866806018,
+      "bounds_mm": [
+        31.0,
+        16.0,
+        19.0,
+        37.0,
+        22.0,
+        25.0
+      ],
+      "step_sha256": "cc14f078e5c75dc0dcf8f2871ee752d00e25e324751240f55781b40649e4ea72",
+      "stl_sha256": "0bc097bff410f21cde582959b4e8a356641fbcd6c95172d80b9516ef82f51c64",
+      "step_valid": true,
+      "step_volume_relative_error": 2.1222977470782808e-14,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 115.12306524488667,
+      "stl_volume_relative_error": 0.00041435364896362254
+    },
+    "fan_spacer_2": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 115.17078668060182,
+      "bounds_mm": [
+        31.0,
+        48.0,
+        19.0,
+        37.0,
+        54.0,
+        25.0
+      ],
+      "step_sha256": "6a54f2a72930391a405a255b091127ce13ddc058e016f2462f3c757ffff04254",
+      "stl_sha256": "c2fa826e040629ac9e21955f44375993398d9b397ea078b06157a27d4381462a",
+      "step_valid": true,
+      "step_volume_relative_error": 2.1222977470782804e-14,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 115.12308722267335,
+      "stl_volume_relative_error": 0.0004141628211740567
+    },
+    "fan_spacer_3": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 115.17078668060182,
+      "bounds_mm": [
+        63.0,
+        16.0,
+        19.0,
+        69.0,
+        22.0,
+        25.0
+      ],
+      "step_sha256": "e58e30f1e5a32c1dcb8c99dfa3bf5a077602635b9e421b57e11cbdcae2475263",
+      "stl_sha256": "37bc1c393cced8d1f50fa7d6b42c2eb0c9eedd0ed1977fb93b51c106da5068f7",
+      "step_valid": true,
+      "step_volume_relative_error": 2.1346366874682705e-14,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 115.12307564757066,
+      "stl_volume_relative_error": 0.0004142633249825596
+    },
+    "fan_spacer_4": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 115.1707866806018,
+      "bounds_mm": [
+        63.0,
+        48.0,
+        19.0,
+        69.0,
+        54.0,
+        25.0
+      ],
+      "step_sha256": "37240af891f1e57c29dd32c23859b597a4f0913d4b83c9504cf7da5e3b47290c",
+      "stl_sha256": "d56be10327ac3d7a00b770b1b03e3543ce4d89e06dc8869c06c75ed523525f68",
+      "step_valid": true,
+      "step_volume_relative_error": 2.1593145682482508e-14,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 115.12309762596851,
+      "stl_volume_relative_error": 0.00041407249188576885
+    },
+    "fan_envelope": {
+      "valid_BRep": true,
+      "solid_count": 1,
+      "volume_mm3": 6557.629120370517,
+      "bounds_mm": [
+        30.0,
+        15.0,
+        25.0,
+        70.0,
+        55.0,
+        35.0
+      ],
+      "step_sha256": "f4b3804b91acadb8fe9c2d2e79964dfb0b535073a518750c83dcfec82bdd7008",
+      "stl_sha256": "08e87cf79e713f98815ec55b598ddb808bda22eff475d93f2a0c3eeb88f21302",
+      "step_valid": true,
+      "step_volume_relative_error": 5.0345417632420043e-14,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 6561.542172211443,
+      "stl_volume_relative_error": 0.0005967174674107574
+    }
+  },
+  "assembly_interference": {
+    "pair_count": 105,
+    "max_overlap_mm3": 0.0,
+    "unintended_intersections": []
+  },
+  "forced_air_interference": {
+    "pair_count": 190,
+    "max_overlap_mm3": 0.0,
+    "unintended_intersections": []
+  },
+  "fixture_interference": {
+    "pair_count": 66,
+    "max_overlap_mm3": 0.0,
+    "unintended_intersections": []
+  },
+  "assembly_STEP_solids": 15,
+  "forced_STEP_solids": 20,
+  "envelopes": {
+    "housing_mm": [
+      100.0,
+      70.0,
+      25.0
+    ],
+    "assembly_including_connector_mm": [
+      100.0,
+      72.0,
+      25.0
+    ],
+    "forced_with_fan_mm": [
+      100.0,
+      72.0,
+      35.0
+    ],
+    "fan_fastener_heads": "not modeled; reserve additional 3 mm above 35 mm fan envelope",
+    "external_cable_keepout_mm": 30.0
+  },
+  "tool_checks": {
+    "main_pocket_corner_radius_mm": 3.0,
+    "main_rough_tool_diameter_mm": 6,
+    "fin_channel_mm": 3.6,
+    "fin_finish_tool_mm": 3,
+    "connector_radius_mm": 1.5,
+    "connector_finish_tool_mm": 3,
+    "full_CAM_simulation": "not performed"
+  },
+  "failures": [],
+  "not_verified": [
+    "OpenSCAD companion execution",
+    "machine-specific CAM / swept cutter collisions",
+    "physical fit, pad pressure, heat transfer, thread strength, vibration, fixture repeatability",
+    "fan hardware, leads and cable routing geometry",
+    "edge break hand-deburr operation (not modeled)"
+  ]
+}

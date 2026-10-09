@@ -1,0 +1,15 @@
+Subject: Prototyping Engineer application — compact hardware enclosure study
+
+Hi comma team,
+
+I built an independent compact edge-compute enclosure study to demonstrate how I approach packaging, manufacturing and validation. The repository includes editable parametric CAD, reimport-checked STEP solids, watertight STL exports, a CNC setup plan, dimensioned drawings, a 3-2-1 inspection fixture and rerunnable thermal/geometry checks.
+
+The useful result is a tradeoff: the assumed passive configuration misses the thermal screening target, while forced cooling warrants a physical test. I also documented the thermal-pad tolerance stack and the remaining compression-force risk.
+
+This is a digital design and manufacturing-planning project, not a claim of completed machining or physical thermal testing. It builds on my mechanical-design experience and Purdue Master of Engineering Management; I would be glad to walk through the design decisions and first-article validation plan.
+
+Repository: https://github.com/gokulg846/compact-edge-enclosure
+The engineering report and one-page summary are in report/.
+
+Best,
+Gokul

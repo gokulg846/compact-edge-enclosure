@@ -1,0 +1,19 @@
+{
+  "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "cadquery": "2.8.0",
+    "cadquery-ocp": "7.9.3.1.1",
+    "trimesh": "5.1.1",
+    "matplotlib": "3.11.2",
+    "reportlab": "5.0.1",
+    "pytest": "9.1.1"
+  },
+  "tools": {
+    "FreeCAD": null,
+    "openscad": null,
+    "gh": "/opt/homebrew/bin/gh",
+    "pdftoppm": "/Users/gokul/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm"
+  },
+  "CAD_route": "CadQuery installed in isolated venv; OpenSCAD companion generated but not executed; no native CAM available"
+}
