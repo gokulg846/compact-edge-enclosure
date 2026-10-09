@@ -17,6 +17,7 @@
   },
   "assembly_STEP_solids": 15,
   "forced_STEP_solids": 20,
+  "fixture_STEP_solids": 11,
   "envelopes": {
     "housing_mm": [
       100.0,
@@ -43,7 +44,9 @@
     "fin_finish_tool_mm": 3,
     "connector_radius_mm": 1.5,
     "connector_finish_tool_mm": 3,
-    "full_CAM_simulation": "not performed"
+    "full_CAM_simulation": "not performed",
+    "lid_pilot_material_ligament_mm": 1.5,
+    "ligament_method": "B-rep ring containment in each actual rounded corner island"
   },
   "failures": [],
   "not_verified": [

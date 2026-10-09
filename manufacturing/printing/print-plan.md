@@ -1,5 +1,8 @@
 # Room-temperature print prototype
 
+> Future handoff material. Physical execution is outside the current digital-only project scope.
+
+
 Purpose: validate packaging, tool access, cable clearance and assembly sequence before aluminum machining. No physical print has been made. Use a calibrated FDM printer with PETG as the initial fit-material candidate; actual thermal/mechanical capability depends on the selected filament and settings. Do not use a printed thermal lid for an 8 W heater test.
 
 - Base STL: translate to bed Z0; underside down, cavity up. Initial settings: 0.2 mm layers, 0.4 mm nozzle, 4 perimeters, 5 top/bottom layers, 30–40% infill. These are trial settings, not qualified process parameters.

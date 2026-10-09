@@ -1,4 +1,4 @@
-# Concepts, iterations and risk register
+# Original concept review / Rev B
 
 Scores use1=poor,5=strong; weights sum1.00. They are engineering judgment, not measurements. See concept_matrix.png and results/concepts.json.
 
@@ -23,7 +23,7 @@ A wins narrowly because repeatable machined datums and a one-piece thermal path 
 | B, manufacturing / inspection | Cylindrical lid bosses meeting straight walls create difficult cutter junctions; PCB supports near corners reduce tool passage; thermal interface tolerances not controlled | Rounded stepped cavity with 10 mm corner islands/R3 transitions; PCB holes moved to 64 × 34 pitch; critical Z stack documented | Better end-mill access and measurable contact gap | B-rep and nominal intersection checks run; full cutter sweep and pad force still unverified |
 | B, cooling option | Nominal passive calculation exceeds 80°C at 8 W/35°C | Add removable40 mm fan on6 mm spacers; retain passive baseline for comparison | Predicted case 61.4°C if assumed forced-air resistance2 K/W is achieved | Calculated only; high resistance corner86.2°C still fails. Fan increases hardware clearance envelope to 38 mm |
 
-Revision A JSON is a retained early parameter state, not a claim that a physical first article existed. The current builder applies Rev B cavity construction to all parameter files; reconstructing exact early cylindrical corner geometry requires the documented baseline patch in cad/revisions/README.md. Only Rev B is released and validated.
+Revision A JSON is a retained early parameter state, not a claim that a physical first article existed. The current builder applies Rev B cavity construction to all parameter files; reconstructing exact early cylindrical corner geometry requires the documented baseline patch in cad/revisions/README.md. Rev C keeps the nominal geometry and supersedes this document with the executed comparison in [design-study.md](design-study.md).
 
 ## Risks (severity and likelihood1..5, ordinal judgments)
 
@@ -38,7 +38,7 @@ Revision A JSON is a retained early parameter state, not a claim that a physical
 | Real board/connector differs from assumed envelope | 4 | 4 | Measure actual electronics before ordering aluminum | Interface audit and parameter update |
 | Fan wires/fasteners interfere | 3 | 3 | Select actual parts; complete hardware/lead model | Hands-on assembly and clearance check |
 
-## Physical validation order
+## Future physical handoff (outside current digital scope)
 
 1. Buy/measure a board or make a dimensioned unpowered coupon; resolve connector and underside keepouts. Select pad/fan/fasteners; review thread depths and machining plan with operator.
 2. Print tray/fit lid and a hole/bridge coupon. Log settings, inspect, photograph and perform five assemble/disassemble cycles. Revise shrink/insert interfaces using observations.

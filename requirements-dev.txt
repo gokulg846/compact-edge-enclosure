@@ -1,0 +1,2 @@
+# Optional formatting; not needed to generate CAD or reports.
+black==26.10.0

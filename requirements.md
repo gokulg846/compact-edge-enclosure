@@ -1,4 +1,4 @@
-# Engineering requirements / Rev B
+# Engineering requirements / Rev C
 
 All dimensions below are design-study assumptions. No real board or comma hardware was measured.
 

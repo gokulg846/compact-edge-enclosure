@@ -1,0 +1,21 @@
+{
+  "heat_W": 8.0,
+  "ambient_C": 35.0,
+  "case_limit_C": 80.0,
+  "contact_K_W": 0.8,
+  "spreading_K_W": 0.5,
+  "air_resistance_K_W": {"passive": 6.0, "forced": 2.0},
+  "contact_range_K_W": [0.4, 1.6],
+  "spreading_range_K_W": [0.3, 0.8],
+  "air_ranges_K_W": {"passive": [4.0, 10.0], "forced": [1.0, 4.0]},
+  "stack_tolerances_mm": {
+    "rim": 0.03,
+    "pedestal": 0.03,
+    "support": 0.03,
+    "board": 0.05,
+    "chip": 0.05
+  },
+  "pad_free_tolerance_mm": 0.05,
+  "area_comparison_h_W_m2K": 10.0,
+  "note": "Screening assumptions, not measured material, pad, or fan performance. h is a common comparison input, not a natural-convection correlation."
+}

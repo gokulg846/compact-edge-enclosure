@@ -1,15 +1,15 @@
-Subject: Prototyping Engineer application — compact hardware enclosure study
+Subject: Prototyping Engineer application — digital enclosure design study
 
 Hi comma team,
 
-I built an independent compact edge-compute enclosure study to demonstrate how I approach packaging, manufacturing and validation. The repository includes editable parametric CAD, reimport-checked STEP solids, watertight STL exports, a CNC setup plan, dimensioned drawings, a 3-2-1 inspection fixture and rerunnable thermal/geometry checks.
+I developed a digital mechanical-design study of a compact electronics enclosure, focusing on packaging, thermal contact and manufacturing decisions. The removable aluminum lid also acts as the heat sink.
 
-The useful result is a tradeoff: the assumed passive configuration misses the thermal screening target, while forced cooling warrants a physical test. I also documented the thermal-pad tolerance stack and the remaining compression-force risk.
+The work includes editable CAD, nominal fit checks, a thermal-pad tolerance stack, and a fin comparison constrained by enclosure height and cutter access. A useful finding is that the assumed cooling resistance has not been justified by geometry alone; the study now quantifies the effective heat transfer the lid would need.
 
-This is a digital design and manufacturing-planning project, not a claim of completed machining or physical thermal testing. It builds on my mechanical-design experience and Purdue Master of Engineering Management; I would be glad to walk through the design decisions and first-article validation plan.
+The repository starts with a plain-language design guide and includes an eight-page report, drawings and a proposed CNC sequence. This is a digital study developed with AI assistance; I have not fabricated or physically validated it. I would be glad to discuss the assumptions, design choices and calculations in detail.
 
 Repository: https://github.com/gokulg846/compact-edge-enclosure
-The engineering report and one-page summary are in report/.
+Start with START_HERE.md or report/portfolio-summary.pdf.
 
 Best,
 Gokul

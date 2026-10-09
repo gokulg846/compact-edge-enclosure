@@ -1,17 +1,17 @@
 {
   "report/engineering-report.pdf": {
     "pages": 8,
-    "bytes": 780040,
+    "bytes": 761957,
     "text_present": true
   },
   "report/portfolio-summary.pdf": {
     "pages": 1,
-    "bytes": 104598,
+    "bytes": 98910,
     "text_present": true
   },
   "drawings/drawing-package.pdf": {
     "pages": 5,
-    "bytes": 347380,
+    "bytes": 347308,
     "text_present": true
   },
   "base_section.dxf": {
@@ -21,6 +21,11 @@
   "thermal_lid_section.dxf": {
     "entities": 16,
     "audit_errors": 0
+  },
+  "local_markdown_links_checked": 44,
+  "design_study": {
+    "rebuilt_candidates": 3,
+    "rejected_candidates": 1
   },
   "status": "PASS"
 }

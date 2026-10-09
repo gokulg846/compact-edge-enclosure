@@ -13,7 +13,7 @@
 | 1 optional | Generic fan | 40 × 40 × 10; pitch 32; actual fan/guard/power/flow not selected |
 | 4 optional | Fan spacers | Length6; OD6; ID3.4 |
 | 4 sets optional | Fan M3 bolts/nuts | Nominal grip 18 mm plus washers/nut; select length after measuring actual hardware |
-| 1 | Fixture plate | 130 × 100 × 6; exports/fixture_plate.step |
+| 1 | Fixture plate | 130 × 100 × 6; exports/components/fixture_plate.step |
 | 6 | Replaceable locator buttons | Ø6 shoulders, simplifiedØ3 stems; three 4 mm and three 9 mm above plate |
 | 6 sets | Locator nuts/washers/shims | Selected to fit4 mm stem protrusion beneath plate; raise bench fixture for access |
 | 2 | Lateral clamp blocks | Modeled mounting and horizontal screw bores; M4 hardware to be selected |

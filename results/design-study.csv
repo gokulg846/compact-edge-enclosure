@@ -1,0 +1,5 @@
+candidate,status,housing_height_mm,within_25mm_target,lid_volume_mm3,fin_channel_mm,exposed_area_m2,required_effective_h_W_m2K,reason
+six_fins_6mm,CAD_CHECKED,25.0,True,20481.97432725055,3.6,0.008732924345035718,26.476110830366327,
+four_fins_6mm,CAD_CHECKED,25.0,True,19905.97432725055,7.333333333333333,0.008108924345035719,28.513507216764083,
+six_fins_10mm,CAD_CHECKED,29.0,False,21633.974327250548,3.6,0.00998092434503572,23.165577138891987,
+eight_fins_6mm,REJECTED,,True,,,,,fin channel requires 3 mm cutter

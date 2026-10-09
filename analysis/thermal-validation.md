@@ -1,5 +1,8 @@
 # Thermal model and physical validation plan
 
+> Future handoff material. Physical execution is outside the current digital-only project scope.
+
+
 Governing equation: ΔT = Q × Rθ. Steady state, single dominant path, no transient capacitance model. Temperature is **component case**, not silicon junction. Assumed path: case → compressed pad/contact interfaces (0.8 K/W) → aluminum pedestal/spreading (0.5 K/W) → finned lid/air (passive 6.0 or forced 2.0 K/W). Case-to-junction resistance is unknown and excluded. Parallel radiation, tray conduction and PCB convection are absorbed into an effective air resistance estimate, not independently calculated or double-counted.
 
 Nominal at Q=8 W, ambient 35°C: passive Rtotal7.3 K/W, ΔT58.4°C, Tcase93.4°C (**above 80°C target**); forced Rtotal3.3 K/W, ΔT26.4°C, Tcase61.4°C. At 35°C, predicted heat ceilings at 80°C are6.16 W passive and 13.64 W forced; these are analytical screening values, not product ratings. Passive test must stop before8 W if the hardware approaches80°C.

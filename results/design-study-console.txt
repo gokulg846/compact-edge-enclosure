@@ -1,0 +1,116 @@
+{
+  "method": "CAD variants + isothermal upper-bound area screen; not CFD or validated convection",
+  "inputs": {
+    "heat_W": 8.0,
+    "ambient_C": 35.0,
+    "case_limit_C": 80.0,
+    "contact_K_W": 0.8,
+    "spreading_K_W": 0.5,
+    "air_resistance_K_W": {
+      "passive": 6.0,
+      "forced": 2.0
+    },
+    "contact_range_K_W": [
+      0.4,
+      1.6
+    ],
+    "spreading_range_K_W": [
+      0.3,
+      0.8
+    ],
+    "air_ranges_K_W": {
+      "passive": [
+        4.0,
+        10.0
+      ],
+      "forced": [
+        1.0,
+        4.0
+      ]
+    },
+    "stack_tolerances_mm": {
+      "rim": 0.03,
+      "pedestal": 0.03,
+      "support": 0.03,
+      "board": 0.05,
+      "chip": 0.05
+    },
+    "pad_free_tolerance_mm": 0.05,
+    "area_comparison_h_W_m2K": 10.0,
+    "note": "Screening assumptions, not measured material, pad, or fan performance. h is a common comparison input, not a natural-convection correlation."
+  },
+  "candidates": [
+    {
+      "candidate": "six_fins_6mm",
+      "changes": {},
+      "within_25mm_target": true,
+      "step_file": "exports/studies/six_fins_6mm.step",
+      "step_valid": true,
+      "step_relative_volume_error": 2.4866598544419193e-15,
+      "status": "CAD_CHECKED",
+      "housing_height_mm": 25.0,
+      "lid_volume_mm3": 20481.97432725055,
+      "nominal_pair_checks": 105,
+      "fin_channel_mm": 3.6,
+      "exposed_area_m2": 0.008732924345035718,
+      "required_effective_h_W_m2K": 26.476110830366327,
+      "air_resistance_at_common_h_K_W": 11.450917934133436,
+      "isothermal_case_at_common_h_C": 137.0073434730675,
+      "h_implied_by_legacy_passive_R_W_m2K": 19.08486322355573,
+      "h_implied_by_legacy_forced_R_W_m2K": 57.25458967066718
+    },
+    {
+      "candidate": "four_fins_6mm",
+      "changes": {
+        "fin_count": 4
+      },
+      "within_25mm_target": true,
+      "step_file": "exports/studies/four_fins_6mm.step",
+      "step_valid": true,
+      "step_relative_volume_error": 2.5586139347904384e-15,
+      "status": "CAD_CHECKED",
+      "housing_height_mm": 25.0,
+      "lid_volume_mm3": 19905.97432725055,
+      "nominal_pair_checks": 105,
+      "fin_channel_mm": 7.333333333333333,
+      "exposed_area_m2": 0.008108924345035719,
+      "required_effective_h_W_m2K": 28.513507216764083,
+      "air_resistance_at_common_h_K_W": 12.332091871250466,
+      "isothermal_case_at_common_h_C": 144.05673497000373,
+      "h_implied_by_legacy_passive_R_W_m2K": 20.553486452084112,
+      "h_implied_by_legacy_forced_R_W_m2K": 61.66045935625233
+    },
+    {
+      "candidate": "six_fins_10mm",
+      "changes": {
+        "fin_height": 10.0,
+        "height": 29.0
+      },
+      "within_25mm_target": false,
+      "step_file": "exports/studies/six_fins_10mm.step",
+      "step_valid": true,
+      "step_relative_volume_error": 2.354246266952877e-15,
+      "status": "CAD_CHECKED",
+      "housing_height_mm": 29.0,
+      "lid_volume_mm3": 21633.974327250548,
+      "nominal_pair_checks": 105,
+      "fin_channel_mm": 3.6,
+      "exposed_area_m2": 0.00998092434503572,
+      "required_effective_h_W_m2K": 23.165577138891987,
+      "air_resistance_at_common_h_K_W": 10.019112112570784,
+      "isothermal_case_at_common_h_C": 125.55289690056628,
+      "h_implied_by_legacy_passive_R_W_m2K": 16.698520187617973,
+      "h_implied_by_legacy_forced_R_W_m2K": 50.095560562853926
+    },
+    {
+      "candidate": "eight_fins_6mm",
+      "changes": {
+        "fin_count": 8
+      },
+      "within_25mm_target": true,
+      "status": "REJECTED",
+      "reason": "fin channel requires 3 mm cutter"
+    }
+  ],
+  "decision": "Retain six 6 mm fins as baseline; taller fins break the height target; eight fins break the cutter-width constraint. Cooling remains unresolved."
+}

@@ -1,8 +1,8 @@
 {
-  "status": "CALCULATED FROM ASSUMED RESISTANCES; NOT TESTED",
+  "status": "CALCULATED FROM ASSUMPTIONS; NOT TESTED",
   "heat_W": 8.0,
   "ambient_C": 35.0,
-  "limit_case_C": 80,
+  "limit_case_C": 80.0,
   "R_contact_K_W": 0.8,
   "R_spreading_K_W": 0.5,
   "configurations": {
@@ -32,14 +32,14 @@
     }
   },
   "pad_stack_mm": {
-    "nominal_gap": 0.5,
+    "nominal_gap": 0.49999999999999956,
     "worst_case_sum": 0.19,
-    "gap_min": 0.31,
-    "gap_max": 0.69,
+    "gap_min": 0.30999999999999955,
+    "gap_max": 0.6899999999999995,
     "pad_free_min": 0.95,
     "pad_free_max": 1.05,
-    "compression_min_pct": 27.368421052631586,
-    "compression_max_pct": 70.47619047619047,
+    "compression_min_pct": 27.368421052631632,
+    "compression_max_pct": 70.47619047619051,
     "RSS_reference_only": 0.08774964387392123
   }
 }

@@ -23,7 +23,6 @@
   "lid_screw_inset": 6.0,
   "lid_screw_clearance": 3.4,
   "lid_tap_drill": 2.5,
-  "lid_boss_radius": 4.0,
   "support_radius": 3.5,
   "chip_length": 20.0,
   "chip_width": 20.0,
@@ -47,5 +46,6 @@
   "fan_pitch": 32.0,
   "fan_height": 10.0,
   "material": "6061-T6 aluminum",
-  "process": "CNC planning"
+  "process": "CNC planning",
+  "corner_island_width": 10.0
 }

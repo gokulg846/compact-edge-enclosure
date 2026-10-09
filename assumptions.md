@@ -27,3 +27,7 @@ The printed enclosure is a room-temperature fit prototype, not a thermally equiv
 ## Toolchain decision
 
 Environment inspection found no FreeCAD, OpenSCAD, PythonOCC, CadQuery or mesh checker in the default Python. The bundled runtime had NumPy/ReportLab. A project-local Python 3.12 venv successfully installed CadQuery/OCP, trimesh, matplotlib, ReportLab, pypdf and pytest. This enabled real B-rep STEP plus watertight STL exports without a large desktop CAD install. The requested OpenSCAD source is also supplied, but the verified CAD route is CadQuery. No native CAM application was available. Haas VF-2 is a reference machine from the user brief, not a verified machine configuration.
+
+## Rev C digital refinement
+
+The nominal enclosure geometry is unchanged. The obsolete lid_boss_radius parameter has been replaced by corner_island_width, which drives the actual pocket. A B-rep ring test checks 1.5 mm of material around each lid pilot. CAD sources are formatted for readability. Report generation now rejects inputs differing from the reviewed snapshot. See docs/review-notes.md and analysis/design-study.md for the digital audit and area-based comparison. Physical procedures are future handoff material, outside the current digital-only scope.
